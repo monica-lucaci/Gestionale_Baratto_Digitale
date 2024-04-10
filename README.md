@@ -1,0 +1,2 @@
+# Gestionale_Baratto_Digitale
+typescript
