@@ -1,0 +1,75 @@
+<mxfile host="Electron" modified="2024-04-10T14:30:11.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="u7vtG66mk2zTz_jRHSW5" version="24.1.0" type="device">
+  <diagram name="Pagina-1" id="Y2nA0dpXS18pTZEXEpvf">
+    <mxGraphModel dx="642" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-1" value="Persona" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UeNRzJzsnWDrbZtmSdRK-1" target="UeNRzJzsnWDrbZtmSdRK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="UeNRzJzsnWDrbZtmSdRK-4" target="UeNRzJzsnWDrbZtmSdRK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-4" value="- codice&lt;div&gt;- nominativo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="UeNRzJzsnWDrbZtmSdRK-5" target="UeNRzJzsnWDrbZtmSdRK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-5" value="+ constructor()&lt;div&gt;+aggiungiOggetto()&lt;/div&gt;&lt;div&gt;+rimuoviOggetto()&lt;/div&gt;&lt;div&gt;+inviaProposta()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-6" value="oggetto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="UeNRzJzsnWDrbZtmSdRK-6" target="UeNRzJzsnWDrbZtmSdRK-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-8" value="- codice&lt;div&gt;- nome&lt;/div&gt;&lt;div&gt;- proprietario&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="UeNRzJzsnWDrbZtmSdRK-9" target="UeNRzJzsnWDrbZtmSdRK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-9" value="+ constructor()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-10" value="Proposta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-12" value="- codice&lt;div&gt;- oggetto : Oggetto&lt;/div&gt;&lt;div&gt;- offerente : Persona&lt;/div&gt;&lt;div&gt;- destinatario : Persona&lt;/div&gt;&lt;div&gt;- stato : string&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UeNRzJzsnWDrbZtmSdRK-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="499.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-13" value="+ constructor()&lt;div&gt;+ accetta()&lt;/div&gt;&lt;div&gt;+ rifiuta()&lt;/div&gt;&lt;div&gt;- eseguitransazione()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-14" value="Transazione" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="UeNRzJzsnWDrbZtmSdRK-14" target="UeNRzJzsnWDrbZtmSdRK-14" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-16" value="&lt;div&gt;- codice&lt;br&gt;&lt;/div&gt;&lt;div&gt;- oggetto: oggetto&lt;/div&gt;&lt;div&gt;- acquirente : Persona&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-17" value="+ aggiungiOggetto()&lt;div&gt;+ aggiungiPersona()&lt;/div&gt;&lt;div&gt;+ effettuaTransazione()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-22" value="agregazione" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="88" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UeNRzJzsnWDrbZtmSdRK-23" value="utilizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
